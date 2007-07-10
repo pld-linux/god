@@ -1,0 +1,12 @@
+diff -ur god-0.1.0-op/bin/god god-0.1.0/bin/god
+--- god-0.1.0-op/bin/god	1969-12-31 17:00:00.000000000 -0700
++++ god-0.1.0/bin/god	2007-07-09 19:17:51.000000000 -0600
+@@ -2,7 +2,6 @@
+ 
+ $:.unshift File.join(File.dirname(__FILE__), *%w[.. lib])
+ 
+-require 'rubygems'
+ require 'daemons'
+ require 'optparse'
+ require 'god'
+Only in god-0.1.0/bin: god~
