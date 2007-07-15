@@ -1,4 +1,5 @@
 Summary:	A monitoring system like Monit only awesome
+Summary(pl.UTF-8):	System monitorujący podobny do Monita, tylko przerażający
 Name:		god
 Version:	0.1.0
 Release:	1
@@ -20,6 +21,14 @@ written in Ruby.
 Keeping your server processes and tasks running should be a simple
 part of your deployment process. God aims to be the simplest, most
 powerful monitoring application available.
+
+%description -l pl.UTF-8
+God to łatwy w konfiguracji, prosty w rozszerzaniu system monitorujący
+napisany w języku Ruby.
+
+Utrzymywanie działania procesów i zadań serwera powinno być prostą
+częścią wdrożenia. God ma być najprostszą, najpotężniejszą dostępną
+aplikacją monitorującą.
 
 %prep
 %setup -q -c
