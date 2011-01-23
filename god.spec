@@ -7,10 +7,10 @@ License:	Ruby's
 Group:		Development/Languages
 Source0:	http://gems.rubyforge.org/gems/%{name}-%{version}.gem
 # Source0-md5:	fc71bda162d2d6b5b8a2dea1a21e2b38
-Patch0:	%{name}-nogems.patch
+Patch0:		%{name}-nogems.patch
 URL:		http://god.rubyforge.org
 BuildRequires:	rpmbuild(macros) >= 1.277
-BuildRequires:	setup.rb = 3.3.1
+BuildRequires:	setup.rb >= 3.3.1
 Requires:	ruby-daemons
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
